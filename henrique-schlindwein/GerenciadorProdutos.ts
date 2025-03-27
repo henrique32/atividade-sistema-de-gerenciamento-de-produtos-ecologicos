@@ -9,7 +9,7 @@ export class GerenciadorProdutos {
     }
 
     listarProdutos(): void {
-        console.log("Lista de Produtos:");
+        console.log("Lista de Produtos:"); 
         this.produtos.forEach(produto => produto.exibirDetalhes());
     }
 }
