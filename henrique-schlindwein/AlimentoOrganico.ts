@@ -10,4 +10,9 @@ export class AlimentoOrganico implements ProdutoEcologico {
         this.preco = preco;
         this.dataValidade = dataValidade;
     }
+
+    exibirDetalhes(): void {
+        console.log(`nome: ${this.nome}, preco: ${this.preco}, data da validade: ${this.dataValidade}`)
+    }
+
 }
